@@ -20,8 +20,8 @@
 		<ul>
 			<li><a href="Default.aspx">Home</a></li>
 			<li><a href="About.aspx">About</a></li>
-			<li><a href="#">Link Three</a></li>
-			<li><a href="#">Link Four</a></li>
+			<li><a href="Logon.aspx">Logon</a></li>
+			<li><a href="securedpage.aspx">Secured Page!</a></li>
 			<li><a href="#">Link Five</a></li>
 		</ul>
 	</div>
