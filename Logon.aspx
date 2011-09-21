@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <asp:label runat="server" ID="lblError" Visible="false" BackColor="Red"></asp:label><br />
 
     Username: <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox><br />
 Password: <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox><br />
