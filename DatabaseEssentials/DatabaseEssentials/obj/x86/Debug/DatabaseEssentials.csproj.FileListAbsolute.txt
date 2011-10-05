@@ -1,0 +1,9 @@
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\DatabaseEssentials\DatabaseEssentials\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\DatabaseEssentials\DatabaseEssentials\obj\x86\Debug\DatabaseEssentials.Form1.resources
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\DatabaseEssentials\DatabaseEssentials\obj\x86\Debug\DatabaseEssentials.Properties.Resources.resources
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\DatabaseEssentials\DatabaseEssentials\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\DatabaseEssentials\DatabaseEssentials\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\DatabaseEssentials\DatabaseEssentials\bin\Debug\DatabaseEssentials.exe
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\DatabaseEssentials\DatabaseEssentials\bin\Debug\DatabaseEssentials.pdb
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\DatabaseEssentials\DatabaseEssentials\obj\x86\Debug\DatabaseEssentials.exe
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\DatabaseEssentials\DatabaseEssentials\obj\x86\Debug\DatabaseEssentials.pdb

@@ -22,7 +22,8 @@
 			<li><a href="About.aspx">About</a></li>
 			<li><a href="Logon.aspx">Logon</a></li>
 			<li><a href="securedpage.aspx">Secured Page!</a></li>
-			<li><a href="#">Link Five</a></li>
+			<li><a href="upload.aspx">upload</a></li>
+			<li><a href="users.aspx">users</a></li>
 		</ul>
 	</div>
 

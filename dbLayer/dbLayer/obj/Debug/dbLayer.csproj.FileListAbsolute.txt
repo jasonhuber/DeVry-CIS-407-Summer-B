@@ -1,0 +1,5 @@
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\dbLayer\dbLayer\bin\Debug\dbLayer.dll
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\dbLayer\dbLayer\bin\Debug\dbLayer.pdb
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\dbLayer\dbLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\dbLayer\dbLayer\obj\Debug\dbLayer.dll
+C:\Users\Jason\Dropbox\Devry\CIS407\2011SummerB\dbLayer\dbLayer\obj\Debug\dbLayer.pdb
