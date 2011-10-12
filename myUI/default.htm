@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jason Demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+<link rel="icon" type="image/png" href="iui-favicon.png">
+<link rel="apple-touch-icon" href="iui-logo-touch-icon.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" href="iui.css" type="text/css" />
+
+<link rel="stylesheet" title="Default" href="t/default/default-theme.css"  type="text/css"/>
+<link rel="alternate stylesheet" title="Default using Gradients" href="t/defaultgrad/defaultgrad-theme.css"  type="text/css"/>
+<link rel="alternate stylesheet" title="iPhoneDevCamp" href="t/ipdc/ipdc-theme.css"  type="text/css"/>
+<link rel="alternate stylesheet" title="Android" href="ext-sandbox/t/android/android-theme.css"  type="text/css"/>
+<link rel="alternate stylesheet" title="Web OS (Palm)" href="ext-sandbox/t/webos/webos-theme.css"  type="text/css"/>
+<script type="application/x-javascript" src="iui.js"></script>
+<script type="application/x-javascript" src="music-app.js"></script>
+<script type="application/x-javascript" src="rml.js"></script>
+<script type="application/x-javascript" src="jquery.js"></script>
+<script>
+function LoadMoreDivs()
+{
+	var li = RML.li({content: RML.a({content: "meats", href: "#meats"})});
+	var myUL = $("#home");
+	myUL.append(li);
+
+	var newul = RML.ul({ id: "meats", title: "meats", content: RML.li({ content: "Salami" }) });
+	$("body").append(newul);
+
+	$.getJSON("http://localhost:50514/2011SummerB/usersjson.aspx",
+        function (data) {
+            $.each(data.users, function (key, value) {
+                var li = RML.li({ content: RML.a({ content: value.email, href: "#" + value.userid})});
+                var myUL = $("#home");
+                myUL.append(li);
+
+                var newul = RML.ul({ id: value.userid, title: value.email, content: RML.li({ content: value.email }) })
+                $("body").append(newul);
+            });
+        });
+
+}
+</script>
+
+
+</head>
+
+<body onload="LoadMoreDivs()">
+    <div class="toolbar">
+        <h1 id="pageTitle">Jason's Roach motel</h1>
+        <a id="backButton" class="button" href="#"></a>
+    </div>
+	 <ul id="home" title="entree" selected="true">
+        <li><a href="#salads">Salad</a></li>
+        <li><a href="#Burgers">Burgers</a></li>
+        <li><a href="#condiments">condiments</a></li>
+        <li><a href="#drinks">drinks</a></li>
+	</ul>
+	 <ul id="salads" title="Salads" >
+        <li>Caesar $999</li>
+        <li><a href="#mixed">mixed (click for price)</a></li>
+	</ul>
+	<div id="mixed" class="panel" title="mixed">
+        <h2>Our mixed salad is well mixed.</h2>
+		<a href="orderme.aspx?item=mixedsalad">Order this!</a>
+    </div>
+</body>
+</html>
